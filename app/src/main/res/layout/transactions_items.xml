@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_typeOfTransaction"
+            android:layout_alignParentEnd="true"
+            android:text="Income"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/text_view_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Amount"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:ellipsize="end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_amount"
+        android:id="@+id/text_view_category"
+        android:text="Category"
+        />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

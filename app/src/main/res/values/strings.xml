@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+    <string name="add_income">ADD INCOME</string>
+    <string name="add_expenses">ADD EXPENSES</string>
+    <string name="all_transactions">ALL TRANSACTIONS</string>
+    <string name="reports">REPORTS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="save">SAVE</string>
+    <string name="business">Business</string>
+    <string name="description_optional">Description: (Optional)</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="price">Price</string>
+    <string name="date_amp_time"><![CDATA[Date & Time]]></string>
+    <string name="amount" />
+    <string name="notes">Notes</string>
+    <string name="income">Income</string>
+    <string name="category">Category</string>
+
+    <string-array name="type_of_income">
+
+        <item>Loan</item>
+        <item>Salary</item>
+    </string-array>
+    <string-array name="mode_of_income">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>Net Banking</item>
+    </string-array>
+    <string-array name="category_List">
+        <item>Business</item>
+        <item>Clothing</item>
+        <item>Drinks</item>
+        <item>Education</item>
+        <item>Food</item>
+        <item>Fuel</item>
+        <item>Fun</item>
+        <item>Hospital</item>
+        <item>Hotel</item>
+        <item>Loan</item>
+        <item>Medical</item>
+        <item>Merchandise</item>
+        <item>Movie</item>
+        <item>Other</item>
+        <item>Personal</item>
+        <item>Pets</item>
+        <item>Restaurant</item>
+        <item>Salary</item>
+        <item>Shopping</item>
+        <item>Tips</item>
+        <item>Transport</item>
+    </string-array>
+    <string-array name="mode_of_expense">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>Net Banking</item>
+    </string-array>
+    <string-array name="report_type">
+        <item>Type</item>
+        <item>Category</item>
+        <item>Mode</item>
+    </string-array>
+</resources>
