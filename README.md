@@ -41,16 +41,16 @@ It stores all your transactions and you can get reports in form of Pie chart<br>
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
 ## Screenshots
+![MainActivity](https://user-images.githubusercontent.com/64160698/109851795-17acff80-7c7a-11eb-83f7-ad8882eb9c44.jpeg)
+![AddExpenses](https://user-images.githubusercontent.com/64160698/109851731-0663f300-7c7a-11eb-83a7-5feba8d7bf83.jpeg)
+![AddIncome](https://user-images.githubusercontent.com/64160698/109851745-0a901080-7c7a-11eb-8927-e507ab3cf69f.jpeg)
+![AllTransactions](https://user-images.githubusercontent.com/64160698/109851761-0ebc2e00-7c7a-11eb-8837-bf283cc561cc.jpeg)
+![CategoryReports](https://user-images.githubusercontent.com/64160698/109851772-111e8800-7c7a-11eb-8ac6-40af9fbb22f2.jpeg)
+![EditExpensesActivity](https://user-images.githubusercontent.com/64160698/109851776-12e84b80-7c7a-11eb-90e1-450f82751ad8.jpeg)
+![EditIncome](https://user-images.githubusercontent.com/64160698/109851783-154aa580-7c7a-11eb-8466-edf7e0856e2c.jpeg)
+![ModeReports](https://user-images.githubusercontent.com/64160698/109851801-1976c300-7c7a-11eb-8dfe-d0693865011b.jpeg)
+![TypeReports](https://user-images.githubusercontent.com/64160698/109851807-1aa7f000-7c7a-11eb-9286-a7207e74028a.jpeg)
 
-<a href="https://postimg.cc/sQ5Lb2Vj" target="_blank"><img src="https://i.postimg.cc/sQ5Lb2Vj/Add-Expenses.jpg" alt="Add-Expenses"/></a>
-<a href="https://postimg.cc/mcvqd9Wp" target="_blank"><img src="https://i.postimg.cc/mcvqd9Wp/Add-Income.jpg" alt="Add-Income"/></a>
-<a href="https://postimg.cc/CZBXHNXf" target="_blank"><img src="https://i.postimg.cc/CZBXHNXf/All-Transactions.jpg" alt="All-Transactions"/></a>
-<a href="https://postimg.cc/jDkB79gb" target="_blank"><img src="https://i.postimg.cc/jDkB79gb/Category-Reports.jpg" alt="Category-Reports"/></a>
-<a href="https://postimg.cc/3kwPW7Z1" target="_blank"><img src="https://i.postimg.cc/3kwPW7Z1/Edit-Expenses-Activity.jpg" alt="Edit-Expenses-Activity"/></a>
-<a href="https://postimg.cc/Wh8B2t0t" target="_blank"><img src="https://i.postimg.cc/Wh8B2t0t/Edit-Income.jpg" alt="Edit-Income"/></a>
-<a href="https://postimg.cc/BXJW92Ld" target="_blank"><img src="https://i.postimg.cc/BXJW92Ld/Main-Activity.jpg" alt="Main-Activity"/></a>
-<a href="https://postimg.cc/XXfMzsJf" target="_blank"><img src="https://i.postimg.cc/XXfMzsJf/Mode-Reports.jpg" alt="Mode-Reports"/></a>
-<a href="https://postimg.cc/V0B30kTG" target="_blank"><img src="https://i.postimg.cc/V0B30kTG/Type-Reports.jpg" alt="Type-Reports"/></a>
 
 
 
