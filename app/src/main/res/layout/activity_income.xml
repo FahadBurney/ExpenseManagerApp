@@ -19,8 +19,6 @@
         android:paddingRight="10dp"
         android:paddingStart="10dp"
         android:paddingLeft="10dp" />
-
-
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
@@ -57,18 +55,14 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="50dp" />
     </RadioGroup>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1666" />
 
-    <View
-        android:id="@+id/divider1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
 
     <TextView
@@ -82,7 +76,7 @@
         android:text="Amount"
         android:textColor="@color/text_info"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider1" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline1" />
 
     <EditText
         android:id="@+id/amount"
@@ -97,24 +91,21 @@
         android:paddingBottom="10dp"
         android:backgroundTint="@color/cursorColor"
         android:textCursorDrawable="@color/cursorColor"
-        app:layout_constraintBottom_toTopOf="@id/divider2"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Amount"
         app:layout_constraintVertical_bias="0.0"
         android:paddingStart="10dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.333" />
 
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/divider3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divider1" />
+
     <TextView
         android:id="@+id/category"
         android:layout_width="wrap_content"
@@ -126,7 +117,8 @@
         android:text="Category"
         android:textColor="@color/text_info"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline2" />
+
 
     <Spinner
         android:id="@+id/spinnerCategory"
@@ -135,23 +127,20 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:text="@string/business"
-        app:layout_constraintBottom_toTopOf="@+id/divider3"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/category"
         app:layout_constraintVertical_bias="0.0" />
 
-    <View
-        android:id="@+id/divider3"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/divider4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5000" />
 
     <TextView
         android:id="@+id/DateAndTime"
@@ -164,7 +153,7 @@
         android:text="@string/date_amp_time"
         android:textColor="@color/text_info"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divider3"
+        app:layout_constraintTop_toBottomOf="@id/guideline3"
         android:paddingStart="10dp" />
 
     <TextView
@@ -197,16 +186,15 @@
         app:layout_constraintStart_toEndOf="@+id/Date"
         app:layout_constraintTop_toBottomOf="@+id/DateAndTime" />
 
-    <View
-        android:id="@+id/divider4"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/divider5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divider3" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.666" />
+
+
+
     <TextView
         android:id="@+id/mode"
         android:layout_width="wrap_content"
@@ -219,7 +207,7 @@
         android:text="Mode"
         android:textColor="@color/text_info"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider4" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline4" />
 
 
     <Spinner
@@ -230,23 +218,20 @@
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
-        app:layout_constraintBottom_toTopOf="@id/divider5"
+        app:layout_constraintBottom_toTopOf="@id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mode"
         app:layout_constraintVertical_bias="0.0" />
 
-    <View
-        android:id="@+id/divider5"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/divider6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divider4" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.83333" />
+
     <TextView
         android:id="@+id/Notes"
         android:layout_width="wrap_content"
@@ -260,7 +245,7 @@
         android:textColor="@color/text_info"
         app:layout_constraintBottom_toTopOf="@+id/notes"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider5" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline5" />
     <EditText
         android:id="@id/notes"
         android:layout_width="match_parent"
@@ -274,24 +259,10 @@
         android:hint="@string/description_optional"
         android:inputType="text"
         android:textCursorDrawable="@color/cursorColor"
-        app:layout_constraintBottom_toTopOf="@+id/divider6"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Notes"
         app:layout_constraintVertical_bias="0.0" />
-
-    <View
-        android:id="@+id/divider6"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divider5" />
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
