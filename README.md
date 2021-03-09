@@ -41,15 +41,13 @@ It stores all your transactions and you can get reports in form of Pie chart<br>
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
 ## Screenshots
-![MainActivity](https://user-images.githubusercontent.com/64160698/109851795-17acff80-7c7a-11eb-83f7-ad8882eb9c44.jpeg)
-![AddExpenses](https://user-images.githubusercontent.com/64160698/109851731-0663f300-7c7a-11eb-83a7-5feba8d7bf83.jpeg)
-![AddIncome](https://user-images.githubusercontent.com/64160698/109851745-0a901080-7c7a-11eb-8927-e507ab3cf69f.jpeg)
-![AllTransactions](https://user-images.githubusercontent.com/64160698/109851761-0ebc2e00-7c7a-11eb-8837-bf283cc561cc.jpeg)
-![CategoryReports](https://user-images.githubusercontent.com/64160698/109851772-111e8800-7c7a-11eb-8ac6-40af9fbb22f2.jpeg)
-![EditExpensesActivity](https://user-images.githubusercontent.com/64160698/109851776-12e84b80-7c7a-11eb-90e1-450f82751ad8.jpeg)
-![EditIncome](https://user-images.githubusercontent.com/64160698/109851783-154aa580-7c7a-11eb-8466-edf7e0856e2c.jpeg)
-![ModeReports](https://user-images.githubusercontent.com/64160698/109851801-1976c300-7c7a-11eb-8dfe-d0693865011b.jpeg)
-![TypeReports](https://user-images.githubusercontent.com/64160698/109851807-1aa7f000-7c7a-11eb-9286-a7207e74028a.jpeg)
+![Screenshot1](https://user-images.githubusercontent.com/64160698/110523202-cb5d3600-8137-11eb-8b0d-ba9bc9f8c286.png)
+![Screenshot 2](https://user-images.githubusercontent.com/64160698/110523215-cf895380-8137-11eb-9af7-f6f4f7d9651b.png)
+![Screenshot 4](https://user-images.githubusercontent.com/64160698/110523236-d44e0780-8137-11eb-8afb-8cc18fdde28a.png)
+![Screenshot 6](https://user-images.githubusercontent.com/64160698/110523266-ddd76f80-8137-11eb-92d2-dc8eb1cbf706.png)
+![Screenshot 9](https://user-images.githubusercontent.com/64160698/110523276-df089c80-8137-11eb-8cf5-d27342f873b8.png)
+![Screenshot 3](https://user-images.githubusercontent.com/64160698/110523286-e334ba00-8137-11eb-8118-bec4c6097fda.png)
+![Screenshot 9](https://user-images.githubusercontent.com/64160698/110523290-e5971400-8137-11eb-89c6-aac4bf1e3169.png)
 
 
 
